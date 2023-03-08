@@ -191,7 +191,7 @@ def google():
 @app.route('/google/auth/')
 def google_auth():
     token = oauth.google.authorize_access_token()
-    #print(token)
+    print(token)
     # generate a random URL-safe string of length 16
     user = oauth.google.parse_id_token(token, nonce=session['nonce'])
     print(" Google User ", user)
