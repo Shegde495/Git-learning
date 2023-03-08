@@ -18,8 +18,8 @@
 
 # google = oauth.register(
 #     name='google',
-#     client_id='858827062782-d63ot34op57kstc98hpfiid5581l0q20.apps.googleusercontent.com',
-#     client_secret='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',
+#     client_id='',
+#     client_secret='',
 #     access_token_url='https://accounts.google.com/o/oauth2/token',
 #     access_token_params=None,
 #     authorize_url='https://accounts.google.com/o/oauth2/auth',
