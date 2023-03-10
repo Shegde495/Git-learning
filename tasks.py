@@ -6,3 +6,4 @@ celery = Celery('tasks', broker='redis://localhost:6379/0')
 def my_task():
     print('Running')
     print('Hello, world!')
+    print('Hello, world statsh!')
